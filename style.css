@@ -95,3 +95,224 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+footer {
+  background-color: #1A1A1A;
+  width: 1920px;
+  height: 561.25px;
+  top: 2475px;
+  color: whitesmoke;
+  list-style-type: none ;
+}
+
+.last-section {
+  width: 1920px;
+  height: 89.8px;
+  top: 471.45px;
+  border: 1px;
+}
+
+.left-footer {
+  width: 663px;
+  height: 390.37px;
+  display: flex;
+  flex: left;
+}
+
+.right-footer {
+  width: 347px;
+  height: 332px;
+  gap: 40px;
+}
+
+.teknolojik-foods {
+  font-family: Londrina Solid;
+  font-weight: 400;
+  size: 50px;
+  line-height: 50px;
+  letter-spacing: 0%;
+  vertical-align:middle ;
+  
+  
+}
+
+.big-picture {
+  background-size: cover;
+  width: 100vw;
+  background-position: center;
+  background-image: url('/assets/iteration-1/home-banner.png');
+  background-color: #CE2829;
+  text-align:center; 
+  height: 1080px;
+  background-size: cover;
+  background-position: center;
+}
+.big-picture .top-pic{ 
+  width: 300px;
+}
+.big-picture h1{ /*fırsatı kaçırma*/
+  margin-top: 10px;
+  text-align: center;
+  color:#FDC913;
+  font-family:'Satisfy';
+  font-size: 32px;
+}
+.big-picture a { /* ACIKTIM */
+  justify-content: center;
+  padding: 10px 20px;
+  color: black;
+  text-align: center;
+  background-color: #FDC913;
+  border:#FDC913 solid ;
+  border-radius: 50px;
+  font-weight: 400;
+  font-size: 20px;
+  
+}
+
+.big-picture p { /* KOD ACIKTIRIR PIZZA, DOYURUR */
+  font-size: 86px;
+  font-weight: 300;
+  display: block;
+  margin-top: -20px;
+  font-family: 'Roboto Condensed';
+  color: white;
+}
+
+nav{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: white;
+  
+}
+.list-item{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+.list-item img{
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+}
+.list-item a{
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  font-weight:bold; 
+  padding: 10px; 
+}
+.list-item p{
+  font-size: 12px;
+  color:black;
+}
+.list-item a:hover{
+  background-color: rgb(0,0,0,.2);
+  transition: all 0.3s ease-in-out;
+}
+
+
+.promotion{
+  display: flex; 
+  flex-direction: row;
+  width: 1072px;
+  height: 449px;
+  left: 424px;
+  gap: 9px;
+}
+
+.left-img {
+  background-image: url('/assets/iteration-2/cta/kart-1.png');
+  width: 531px;
+  height: 449px;
+  border-radius: 12px;
+
+
+}
+
+.right-img{
+  display: flex;
+  flex-direction: column;
+  height: 531px;
+  width: 530px; 
+  padding: 0;
+  margin: 0;
+  
+}
+
+
+.img-1 {
+  background-image: url('/assets/iteration-2/cta/kart-2.png');
+  width: 530px;
+  height: 220px;
+  border-radius: 12px;
+}
+
+.img-2 {
+  background-image: url('/assets/iteration-2/cta/kart-3.png');
+  width: 530px;
+  height: 220px;
+  border-radius: 12px;
+}
+
+.left-img h2 {
+  font-family: Quattrocento;
+  font-size: 68px;
+  color: white;
+  line-height: 72px;
+  vertical-align: middle;
+  letter-spacing: 0%;
+  margin: 0;
+  width: 50%;
+}
+
+.left-img p {
+  font-family: Barlow;
+  color: white;
+  font-size: 20px;
+  line-height: 26.76px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  
+
+}
+
+.img-1 h3 {
+  font-family: Barlow;
+  font-size: 32px;
+  line-height: 44.27px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: white;
+  width: 40%;
+}
+
+.img-2 h3 {
+  font-family: Barlow;
+  font-size: 32px;
+  line-height: 44.27px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #292929;
+}
+
+.cok {
+  color: red;
+}
+
+.promotion button {
+  width: 138px;
+  height: 48px;
+  top: 143.5px;
+  left: 32px;
+  font-family: Barlow;
+  font-size: 14px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: red;
+  border-radius: 50px;
+  text-align: center;
+}
+
